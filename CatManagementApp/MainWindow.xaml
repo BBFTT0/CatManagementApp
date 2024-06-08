@@ -1,0 +1,15 @@
+﻿<Window x:Class="CatManagementApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CatManagementApp"
+        mc:Ignorable="d"
+        Title="Cat Management App" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="catsListBox" HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" VerticalAlignment="Top" Width="300"/>
+        <Button Content="Add Cat" Click="AddCatButton_Click" HorizontalAlignment="Left" Margin="335,50,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Edit Cat" Click="EditCatButton_Click" HorizontalAlignment="Left" Margin="335,100,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Remove Cat" Click="RemoveCatButton_Click" HorizontalAlignment="Left" Margin="335,150,0,0" VerticalAlignment="Top" Width="75"/>
+    </Grid>
+</Window>
